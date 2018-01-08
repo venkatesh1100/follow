@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "883201495318",
+    "firebase_url": "https://frontview-669cc.firebaseio.com",
+    "project_id": "frontview-669cc",
+    "storage_bucket": "frontview-669cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883201495318:android:d7c2608ee85926eb",
+        "android_client_info": {
+          "package_name": "app.map.com.frontview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883201495318-fsabq8umag19b7238sb1ietna9g0ood0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqlKIaXgHsYbKHFeLI_pH6ZiQr8rVg2SI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

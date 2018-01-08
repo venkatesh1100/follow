@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#4099ff"
+    >
+
+
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:hint="Enter Name"
+        android:layout_above="@+id/edittext2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="27dp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:text="+91"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter mobilenumber"
+        android:layout_marginBottom="121dp"
+        android:layout_above="@+id/firstbtn"
+        android:layout_alignParentStart="true">
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/firstbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#4099ff"
+        android:textSize="30dp"
+        android:text="View Location"
+        android:onClick="tomain"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="127dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Follow Friends"
+        android:layout_marginBottom="27dp"
+        android:layout_above="@+id/edittext1"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
